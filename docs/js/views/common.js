@@ -1,7 +1,7 @@
 import { t, fmtDate } from '../i18n.js';
 import { html, icon, info, openModal, toast } from '../ui.js';
 import { CATEGORIES, categoryById, REGULATORY } from '../domain/categories.js';
-import { effectiveExpiry, eligibility, isMask, isEmpty } from '../domain/product.js';
+import { effectiveExpiry, eligibility, isMask, isEmpty, suggestUsage } from '../domain/product.js';
 import { hasIngredientData } from '../domain/ingredients.js';
 import { getState, logUsage } from '../store.js';
 import { api } from '../api.js';
@@ -226,13 +226,15 @@ export function productForm(p, { submitLabel, regions, wishlist = false } = {}) 
       <label class="field"><span>${t('form.frequency')} ${info(t('form.frequencyInfo'))}</span>
         <select name="frequencyPerWeek">${opt('', t('form.frequencyUnknown'), v('frequencyPerWeek'))}${[1, 2, 3, 4, 5, 6, 7].map((n) => opt(n, n === 7 ? t('form.daily') : t('routine.perWeek', { n }), v('frequencyPerWeek')))}</select></label>
     </div>
+    <p class="usage-hint" id="usage-hint" aria-live="polite">${usageHint(p || {})}</p>
     <label class="field"><span>${t('form.texture')} ${info(t('form.textureInfo'))}</span>
       <select name="texture">${opt('', t('form.choose'), v('texture'))}${['water', 'gel', 'milk', 'cream', 'oil'].map((x) => opt(x, t(`texture.${x}`), v('texture')))}</select></label>
-    <div class="field-row three">
+    <div class="field-row">
       <label class="field"><span>${t('form.openedAt')}</span><input type="date" name="openedAt" value="${v('openedAt')}"></label>
-      <label class="field"><span>${t('form.pao')} ${info(t('form.paoInfo'))}</span><input type="number" name="paoMonths" min="1" max="60" inputmode="numeric" value="${v('paoMonths')}" placeholder="12"></label>
       <label class="field"><span>${t('form.expiresAt')}</span><input type="date" name="expiresAt" value="${v('expiresAt')}"></label>
     </div>
+    <label class="field"><span>${t('form.pao')} ${info(t('form.paoInfo'))}</span>
+      <span class="input-suffix"><input type="number" name="paoMonths" min="1" max="60" inputmode="numeric" value="${v('paoMonths')}" placeholder="12"><b>${t('product.monthsUnit')}</b></span></label>
     <label class="field non-mask" ${showMask ? 'hidden' : ''}>
       <span>${t('form.remaining')} <output id="remaining-out">${p?.remainingPct ?? 100}%</output></span>
       <input type="range" name="remainingPct" min="0" max="100" step="5" value="${p?.remainingPct ?? 100}" aria-describedby="remaining-out">
@@ -249,6 +251,18 @@ export function productForm(p, { submitLabel, regions, wishlist = false } = {}) 
     <p class="form-error" role="alert" hidden></p>
     <div class="form-actions"><button type="submit" class="btn btn-primary btn-block">${submitLabel || t('common.save')}</button></div>
   </form>`;
+}
+
+/** "자동"을 골랐을 때 앱이 정한 사용 시간·빈도와 근거 */
+export function usageHint(p) {
+  const s = suggestUsage(p);
+  const time = p.timeOfUse && p.timeOfUse !== 'auto' ? t(`timeOfUse.${p.timeOfUse}`) : t(`timeOfUse.${s.timeOfUse}`);
+  const freq = p.frequencyPerWeek ? Number(p.frequencyPerWeek) : s.perWeek;
+  return t('form.autoHint', {
+    time,
+    freq: freq >= 7 ? t('form.daily') : t('routine.perWeek', { n: freq }),
+    why: s.basis ? t(`group.${s.basis}`) : t('form.autoBasisNone'),
+  });
 }
 
 /** 폼 값 → 제품 필드 */

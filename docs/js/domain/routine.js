@@ -1,6 +1,6 @@
 import { categoryById } from './categories.js';
 import { detectGroups, hasIngredientData } from './ingredients.js';
-import { eligibility, strongActives, useFirstCompare, effectiveExpiry, isMask } from './product.js';
+import { eligibility, strongActives, useFirstCompare, effectiveExpiry, isMask, suggestUsage } from './product.js';
 import { checkCombos, considerPairs } from './interactions.js';
 import { similarClusters } from './duplicates.js';
 import { addDays, weekdayOf } from './dates.js';
@@ -32,19 +32,21 @@ function spread(k, offset) {
 function analyze(p) {
   const cat = categoryById(p.category);
   const actives = strongActives(p);
+  const sug = suggestUsage(p); // 라벨·사용자 입력이 없을 때 성분 기반 추천
   let slots;
   let slotWhy = null;
   if (p.timeOfUse && p.timeOfUse !== 'auto') {
     slots = p.timeOfUse === 'both' ? ['am', 'pm'] : [p.timeOfUse];
     slotWhy = 'labelTime';
-  } else if (actives.length && cat.id !== 'sunscreen') {
+  } else if (sug.timeOfUse === 'pm' && cat.id !== 'sunscreen') {
     slots = ['pm'];
     slotWhy = 'activePm';
   } else {
     slots = cat.slot === 'both' ? ['am', 'pm'] : [cat.slot];
   }
-  const perWeek = isMask(p) ? null : Math.min(7, Math.max(1, Number(p.frequencyPerWeek) || 7));
-  return { p, cat, actives, slots, slotWhy, perWeek, days: null };
+  const perWeek = isMask(p) ? null : Math.min(7, Math.max(1, Number(p.frequencyPerWeek) || sug.perWeek));
+  const suggested = !isMask(p) && !p.frequencyPerWeek && perWeek < 7 ? sug : null;
+  return { p, cat, actives, slots, slotWhy, perWeek, suggested, days: null };
 }
 
 /** 주 n회 제품을 요일에 배치. 서로 자극 가능성이 있는 활성 성분은 다른 날로 분산 */
@@ -109,7 +111,8 @@ function makeStep(info, { why = [], profile, todayISO }) {
 
   const allWhy = [{ key: 'why.category', params: { category: info.cat.id } }];
   if (info.slotWhy) allWhy.push({ key: `why.${info.slotWhy}` });
-  if (info.perWeek && info.perWeek < 7) allWhy.push({ key: 'why.scheduled', params: { n: info.perWeek } });
+  if (info.suggested) allWhy.push(info.suggested.basis ? { key: 'why.suggested', params: { n: info.perWeek, groups: [info.suggested.basis] } } : { key: 'why.suggestedPlain', params: { n: info.perWeek } });
+  else if (info.perWeek && info.perWeek < 7) allWhy.push({ key: 'why.scheduled', params: { n: info.perWeek } });
   allWhy.push(...why);
   return { productId: p.id, category: info.cat.id, perWeek: info.perWeek, why: allWhy, tips, warnings };
 }

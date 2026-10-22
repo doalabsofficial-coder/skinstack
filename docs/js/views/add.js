@@ -6,7 +6,7 @@ import { createProduct } from '../domain/product.js';
 import { findSimilar } from '../domain/duplicates.js';
 import { parseLabelText } from '../domain/parse.js';
 import { looksLikeMakeup, guessCategory, CATEGORY_IDS } from '../domain/categories.js';
-import { productForm, readProductForm, productName, similarReason, catLabel } from './common.js';
+import { productForm, readProductForm, productName, similarReason, catLabel, usageHint } from './common.js';
 import { loadCatalog, searchCatalog } from '../domain/catalog.js';
 
 const MODES = ['search', 'photo', 'manual'];
@@ -58,6 +58,7 @@ export function render(ctx) {
       <section class="card">
         <h3 class="card-title">${t('add.photoTitle')} ${info(ctx.config.ocrAi ? t('add.photoInfoAi') : t('add.photoInfoLocal'))}</h3>
         <p class="muted small">${t('add.photoLead')}</p>
+        <ul class="chips photo-tips">${['close', 'light', 'flat', 'glare'].map((k) => html`<li class="chip chip-accent">${t(`add.tip.${k}`)}</li>`)}</ul>
         <div class="photo-grid">
           ${['front', 'back'].map((side) => html`
             <label class="photo-slot" for="photo-${side}">
@@ -107,12 +108,19 @@ function bindForm(root, ctx) {
     form.querySelectorAll('.non-mask').forEach((el) => { el.hidden = isMask; });
   };
 
+  // 성분·종류·이름이 바뀌면 "자동" 사용 시간·빈도 안내를 바로 갱신
+  const refreshUsage = () => {
+    const el = form.querySelector('#usage-hint');
+    if (el) el.textContent = usageHint(readProductForm(form));
+  };
   form.addEventListener('input', (e) => {
     if (e.target.name === 'remainingPct') form.querySelector('#remaining-out').textContent = `${e.target.value}%`;
     if (e.target.name === 'name') { refreshMakeup(); refreshDup(); }
+    if (['ingredientsText', 'name'].includes(e.target.name)) refreshUsage();
   });
   form.addEventListener('change', (e) => {
     if (e.target.name === 'category') { toggleMask(); refreshDup(); }
+    if (['category', 'timeOfUse', 'frequencyPerWeek'].includes(e.target.name)) refreshUsage();
   });
   form.addEventListener('click', (e) => {
     const b = e.target.closest('[data-action="apply-hint"]');
@@ -299,10 +307,25 @@ function loadTesseract() {
   return tesseractLoading;
 }
 
+/**
+ * 무료 OCR 전처리: 사진 방향 보정 + 크기만 맞춤(작은 사진은 최대 2배 확대, 큰 사진은 2400px).
+ * 흑백·대비 보정은 하지 않음 — 실험 결과 Tesseract 내부 이진화보다 나빠져 인식이 거의 0이 됨.
+ */
+async function prepareForOcr(file) {
+  const bmp = await createImageBitmap(file);
+  const scale = Math.min(2400 / Math.max(bmp.width, bmp.height), 2);
+  const canvas = document.createElement('canvas');
+  canvas.width = Math.round(bmp.width * scale);
+  canvas.height = Math.round(bmp.height * scale);
+  canvas.getContext('2d').drawImage(bmp, 0, 0, canvas.width, canvas.height);
+  return canvas;
+}
+
 function bindPhoto(root, ctx) {
   const card = root.querySelector('.photo-grid');
   if (!card) return;
   const images = { front: null, back: null };
+  const files = { front: null, back: null };
   const btn = root.querySelector('[data-action="ocr"]');
   const status = root.querySelector('#ocr-status');
 
@@ -313,6 +336,7 @@ function bindPhoto(root, ctx) {
       try {
         const dataUrl = await fileToDataUrl(file);
         images[input.dataset.side] = dataUrl;
+        files[input.dataset.side] = file; // 무료 OCR은 원본에서 따로 전처리
         const prev = root.querySelector(`#preview-${input.dataset.side}`);
         prev.innerHTML = '';
         const img = document.createElement('img');
@@ -348,16 +372,26 @@ function bindPhoto(root, ctx) {
       } else {
         const T = await loadTesseract();
         const texts = {};
-        for (const side of ['front', 'back']) {
-          if (!images[side]) { texts[side] = ''; continue; }
-          const res = await T.recognize(images[side], 'kor+eng', {
-            logger: (m) => {
-              if (m.status === 'recognizing text') status.innerHTML = htmlString(spinner(t('add.recognizing', { side: t(`add.${side}`), pct: Math.round(m.progress * 100) })));
-            },
-          });
-          texts[side] = res.data.text || '';
+        let side = 'front';
+        const worker = await T.createWorker('kor+eng', 1, {
+          logger: (m) => {
+            if (m.status === 'recognizing text') status.innerHTML = htmlString(spinner(t('add.recognizing', { side: t(`add.${side}`), pct: Math.round(m.progress * 100) })));
+          },
+        });
+        try {
+          for (side of ['front', 'back']) {
+            if (!files[side]) { texts[side] = ''; continue; }
+            // 앞면은 자동 배치, 뒷면(전성분 문단)은 한 덩어리 글 블록으로 읽음
+            await worker.setParameters({ tessedit_pageseg_mode: side === 'back' ? '6' : '3' });
+            const res = await worker.recognize(await prepareForOcr(files[side]));
+            texts[side] = res.data.text || '';
+          }
+        } finally {
+          await worker.terminate();
         }
         parsed = { ...parseLabelText(texts.front, texts.back), rawText: `[${t('add.front')}]\n${texts.front}\n\n[${t('add.back')}]\n${texts.back}` };
+        // 한글 OCR은 글자 사이에 빈칸이 끼는 경우가 많아 전성분에서만 제거 (정제 수 → 정제수)
+        parsed.ingredientsText = parsed.ingredientsText.replace(/([가-힣])\s+(?=[가-힣])/g, '$1');
       }
       draft = { ...parsed, category: null, dataSource: 'ocr', region: getState().settings.region };
       if (!draft.regulatory) delete draft.regulatory;

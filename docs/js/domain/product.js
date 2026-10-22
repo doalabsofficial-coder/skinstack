@@ -83,9 +83,26 @@ export function eligibility(p, profile = {}, todayISO) {
   if (profile.pregnancy === 'pregnant' || profile.pregnancy === 'breastfeeding') {
     if (p.pregnancyAvoid || actives.some((a) => a.group === 'retinoid' || a.group === 'hydroquinone')) reasons.push('pregnancy_consult');
   }
-  const needsFreq = actives.length > 0 || categoryById(p.category)?.id === 'wash_off_mask';
-  if (needsFreq && !p.frequencyPerWeek && !isMask(p)) reasons.push('frequency_unknown');
+  // 빈도가 입력되지 않아도 성분 기반 추천 빈도(suggestUsage)로 루틴에 넣음
   return { ok: reasons.length === 0, reasons };
+}
+
+/**
+ * 성분 기반 사용 시간·빈도 추천 (앱 규칙, 라벨·사용자 입력이 있으면 그 값이 우선).
+ * 자극 가능 성분은 저녁 + 낮은 빈도부터 시작하는 보수적 기준.
+ * @returns {{timeOfUse:'am'|'pm'|'both', perWeek:number, basis:string|null}} basis = 판단 근거 성분 그룹
+ */
+export function suggestUsage(p) {
+  const groups = new Set(detectGroups(p).map((g) => g.group));
+  const pick = (...gs) => gs.find((g) => groups.has(g));
+  if (p.category === 'sunscreen' || groups.has('uv_filter')) return { timeOfUse: 'am', perWeek: 7, basis: 'uv_filter' };
+  if (groups.has('retinoid')) return { timeOfUse: 'pm', perWeek: 2, basis: 'retinoid' };
+  const exfoliant = pick('aha', 'bha', 'benzoyl_peroxide');
+  if (exfoliant) return { timeOfUse: 'pm', perWeek: 2, basis: exfoliant };
+  if (groups.has('pha')) return { timeOfUse: 'pm', perWeek: 3, basis: 'pha' };
+  if (p.category === 'wash_off_mask') return { timeOfUse: 'pm', perWeek: 2, basis: null };
+  if (groups.has('vitamin_c')) return { timeOfUse: 'both', perWeek: 7, basis: 'vitamin_c' };
+  return { timeOfUse: 'both', perWeek: 7, basis: null };
 }
 
 /** 같은 종류 중 무엇을 먼저 쓸지: 개봉한 것 → 기한 임박 → 남은 양 적은 것 */

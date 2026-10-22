@@ -489,6 +489,21 @@ legend { font-size: .85rem; font-weight: 650; padding: 0; margin-bottom: 8px; di
 .is-done .step-name { text-decoration: line-through; color: var(--muted); }
 .check-item .obj { flex: none; }
 .dot-warn { color: var(--caution); font-weight: 700; }
+/* hidden 속성이 .notice{display:flex} 같은 규칙에 덮이지 않도록 */
+[hidden] { display: none !important; }
+.segmented .tab { white-space: nowrap; padding-left: 6px; padding-right: 6px; }
+/* 모바일 가로 넘침 방지: 페이지 밖으로 튀어나오는 요소를 자르고, 입력칸이 칸 너비만큼 줄어들도록 */
+html, body { overflow-x: clip; }
+input, select, textarea { min-width: 0; max-width: 100%; }
+.field-row > .field { min-width: 0; }
+.input-suffix { display: flex; align-items: center; gap: 10px; }
+.input-suffix input { flex: 1; }
+.input-suffix b { flex: none; font-weight: 600; color: var(--muted); }
+.usage-hint { margin-top: -4px; padding: 10px 14px; border-radius: var(--radius-sm); background: var(--primary-soft); color: var(--primary-strong); font-size: .85rem; font-weight: 600; }
+@media (max-width: 640px) {
+  /* ⓘ 설명은 화면 아래쪽(메뉴 위)에 꽉 찬 너비로: 위치와 관계없이 잘리지 않음 */
+  .tooltip { position: fixed; left: 16px; right: 16px; top: auto; bottom: calc(100px + env(safe-area-inset-bottom)); transform: none; width: auto; max-width: none; font-size: .9rem; padding: 14px 16px; border-radius: var(--radius-sm); box-shadow: 0 10px 30px rgba(0, 0, 0, .25); z-index: 60; }
+}
 .mask-banner { flex-wrap: wrap; align-items: center; }
 .mask-banner p { width: auto; flex: 1; min-width: 50%; }
 .mask-banner .btn { white-space: nowrap; }
