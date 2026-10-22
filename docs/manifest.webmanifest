@@ -1,0 +1,9 @@
+{
+  "name": "SkinStack",
+  "short_name": "SkinStack",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FFF6F1",
+  "theme_color": "#FF8DAA",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
