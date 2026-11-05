@@ -1,0 +1,4319 @@
+{
+ "generatedAt": "2026-10-19",
+ "ingredients": [
+  {
+   "id": "snail-secretion-filtrate",
+   "inci": "Snail Secretion Filtrate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-snail-essence",
+    "cosrx-snail-cream",
+    "cosrx-snail-gel-cleanser"
+   ]
+  },
+  {
+   "id": "betaine",
+   "inci": "Betaine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 117.15,
+   "xlogp": 0.5,
+   "pubchemCid": 247,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/247"
+   ],
+   "productIds": [
+    "cosrx-snail-essence",
+    "cosrx-snail-cream",
+    "cosrx-ha-3-serum",
+    "cosrx-ceramide-moisturizer",
+    "torriden-divein-toner",
+    "torriden-divein-serum"
+   ]
+  },
+  {
+   "id": "butylene-glycol",
+   "inci": "Butylene Glycol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 90.12,
+   "xlogp": -0.4,
+   "pubchemCid": 7896,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/7896"
+   ],
+   "productIds": [
+    "cosrx-snail-essence",
+    "cosrx-snail-cream",
+    "cosrx-aha-bha-toner",
+    "cosrx-bha-liquid",
+    "cosrx-retinol-03-cream",
+    "cosrx-niacinamide-15-serum",
+    "cosrx-vitc-23-serum",
+    "cosrx-ha-3-serum",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-calming-pad",
+    "cosrx-moisture-pad",
+    "cosrx-snail-gel-cleanser",
+    "cosrx-pdrn-hydrogel-mask",
+    "cosrx-vite-sunscreen",
+    "torriden-divein-toner",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-mask",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "1-2-hexanediol",
+   "inci": "1,2-Hexanediol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 118.17,
+   "xlogp": 0.7,
+   "pubchemCid": 94335,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/94335"
+   ],
+   "productIds": [
+    "cosrx-snail-essence",
+    "cosrx-aha-bha-toner",
+    "cosrx-bha-liquid",
+    "cosrx-retinol-03-cream",
+    "cosrx-niacinamide-15-serum",
+    "cosrx-ha-3-serum",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-calming-pad",
+    "cosrx-moisture-pad",
+    "cosrx-snail-gel-cleanser",
+    "cosrx-pdrn-hydrogel-mask",
+    "cosrx-vite-sunscreen",
+    "torriden-divein-toner",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-mask",
+    "torriden-divein-cleansing-oil",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "sodium-polyacrylate",
+   "inci": "Sodium Polyacrylate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-snail-essence",
+    "cosrx-snail-cream",
+    "cosrx-snail-gel-cleanser"
+   ]
+  },
+  {
+   "id": "phenoxyethanol",
+   "inci": "Phenoxyethanol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 138.16,
+   "xlogp": 1.2,
+   "pubchemCid": 31236,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/31236"
+   ],
+   "productIds": [
+    "cosrx-snail-essence",
+    "cosrx-snail-cream"
+   ]
+  },
+  {
+   "id": "sodium-hyaluronate",
+   "inci": "Sodium Hyaluronate",
+   "nameKo": null,
+   "aliases": [
+    "Sodium Hyaluronate(3%)"
+   ],
+   "groups": [
+    "hyaluronic"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-snail-essence",
+    "cosrx-snail-cream",
+    "cosrx-bha-liquid",
+    "cosrx-retinol-03-cream",
+    "cosrx-vitc-23-serum",
+    "cosrx-ha-3-serum",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-calming-pad",
+    "cosrx-micellar-water",
+    "cosrx-pdrn-hydrogel-mask",
+    "torriden-divein-toner",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-mask",
+    "torriden-divein-cleansing-oil",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "allantoin",
+   "inci": "Allantoin",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 158.12,
+   "xlogp": -2.2,
+   "pubchemCid": 204,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/204"
+   ],
+   "productIds": [
+    "cosrx-snail-essence",
+    "cosrx-snail-cream",
+    "cosrx-aha-bha-toner",
+    "cosrx-retinol-03-cream",
+    "cosrx-niacinamide-15-serum",
+    "cosrx-vitc-23-serum",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-calming-pad",
+    "cosrx-micellar-water",
+    "cosrx-pdrn-hydrogel-mask",
+    "torriden-divein-toner",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-mask",
+    "torriden-divein-cleansing-oil",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "ethyl-hexanediol",
+   "inci": "Ethyl Hexanediol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 146.23,
+   "xlogp": 1.3,
+   "pubchemCid": 7211,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/7211"
+   ],
+   "productIds": [
+    "cosrx-snail-essence",
+    "cosrx-snail-cream",
+    "cosrx-aha-bha-toner",
+    "cosrx-bha-liquid"
+   ]
+  },
+  {
+   "id": "carbomer",
+   "inci": "Carbomer",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-snail-essence",
+    "cosrx-snail-cream",
+    "cosrx-retinol-03-cream",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-snail-gel-cleanser",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-mask"
+   ]
+  },
+  {
+   "id": "panthenol",
+   "inci": "Panthenol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "panthenol"
+   ],
+   "molecularWeight": 205.25,
+   "xlogp": -0.9,
+   "pubchemCid": 4678,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/4678"
+   ],
+   "productIds": [
+    "cosrx-snail-essence",
+    "cosrx-snail-cream",
+    "cosrx-aha-bha-toner",
+    "cosrx-bha-liquid",
+    "cosrx-retinol-03-cream",
+    "cosrx-vitc-23-serum",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-calming-pad",
+    "cosrx-micellar-water",
+    "cosrx-pdrn-hydrogel-mask",
+    "torriden-divein-toner",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-mask",
+    "torriden-divein-cleansing-oil",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "arginine",
+   "inci": "Arginine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 174.2,
+   "xlogp": -4.2,
+   "pubchemCid": 6322,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/6322"
+   ],
+   "productIds": [
+    "cosrx-snail-essence",
+    "cosrx-snail-cream",
+    "cosrx-bha-liquid",
+    "cosrx-vitc-23-serum",
+    "cosrx-ha-3-serum",
+    "cosrx-calming-pad",
+    "cosrx-snail-gel-cleanser",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "water",
+   "inci": "Water",
+   "nameKo": null,
+   "aliases": [
+    "Aqua/Water",
+    "Water/Aqua",
+    "Watet / Aqua / Eau"
+   ],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-snail-essence",
+    "cosrx-snail-cream",
+    "cosrx-aha-bha-toner",
+    "cosrx-retinol-03-cream",
+    "cosrx-niacinamide-15-serum",
+    "cosrx-vitc-23-serum",
+    "cosrx-ha-3-serum",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-calming-pad",
+    "cosrx-moisture-pad",
+    "cosrx-micellar-water",
+    "cosrx-snail-gel-cleanser",
+    "cosrx-pdrn-hydrogel-mask",
+    "cosrx-vite-sunscreen",
+    "torriden-divein-toner",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-mask",
+    "torriden-divein-cleansing-oil",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "caprylic-capric-triglyceride",
+   "inci": "Caprylic/Capric Triglyceride",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-snail-cream",
+    "cosrx-retinol-03-cream",
+    "cosrx-ha-3-serum",
+    "cosrx-calming-pad",
+    "cosrx-retinol-05-oil",
+    "torriden-divein-cream",
+    "torriden-divein-cleansing-oil",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "cetearyl-olivate",
+   "inci": "Cetearyl Olivate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-snail-cream",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "sorbitan-olivate",
+   "inci": "Sorbitan Olivate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_found",
+   "sources": [],
+   "productIds": [
+    "cosrx-snail-cream",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "cetearyl-alcohol",
+   "inci": "Cetearyl Alcohol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-snail-cream",
+    "cosrx-retinol-03-cream",
+    "cosrx-ceramide-moisturizer",
+    "torriden-divein-cream",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "dimethicone",
+   "inci": "Dimethicone",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-snail-cream",
+    "cosrx-retinol-03-cream",
+    "cosrx-vitc-23-serum",
+    "cosrx-ha-3-serum",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "palmitic-acid",
+   "inci": "Palmitic Acid",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 256.42,
+   "xlogp": 6.4,
+   "pubchemCid": 985,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/985"
+   ],
+   "productIds": [
+    "cosrx-snail-cream",
+    "cosrx-retinol-03-cream",
+    "cosrx-ceramide-moisturizer"
+   ]
+  },
+  {
+   "id": "xanthan-gum",
+   "inci": "Xanthan Gum",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-snail-cream",
+    "cosrx-bha-liquid",
+    "cosrx-niacinamide-15-serum",
+    "cosrx-ha-3-serum",
+    "cosrx-pdrn-hydrogel-mask",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-mask",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "stearic-acid",
+   "inci": "Stearic acid",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 284.5,
+   "xlogp": 7.4,
+   "pubchemCid": 5281,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/5281"
+   ],
+   "productIds": [
+    "cosrx-snail-cream",
+    "cosrx-retinol-03-cream",
+    "cosrx-ha-3-serum",
+    "cosrx-ceramide-moisturizer"
+   ]
+  },
+  {
+   "id": "adenosine",
+   "inci": "Adenosine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 267.24,
+   "xlogp": -1.1,
+   "pubchemCid": 60961,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/60961"
+   ],
+   "productIds": [
+    "cosrx-snail-cream",
+    "cosrx-retinol-03-cream",
+    "cosrx-vitc-23-serum",
+    "cosrx-calming-pad",
+    "cosrx-pdrn-hydrogel-mask",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "myristic-acid",
+   "inci": "Myristic Acid",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 228.37,
+   "xlogp": 5.3,
+   "pubchemCid": 11005,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/11005"
+   ],
+   "productIds": [
+    "cosrx-snail-cream",
+    "cosrx-retinol-03-cream"
+   ]
+  },
+  {
+   "id": "salix-alba-willow-bark-water",
+   "inci": "Salix Alba (Willow) Bark Water",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-aha-bha-toner",
+    "cosrx-bha-liquid"
+   ]
+  },
+  {
+   "id": "pyrus-malus-apple-fruit-water",
+   "inci": "Pyrus Malus (Apple) Fruit Water",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-aha-bha-toner"
+   ]
+  },
+  {
+   "id": "sodium-lactate",
+   "inci": "Sodium Lactate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 112.06,
+   "xlogp": null,
+   "pubchemCid": 23666456,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/23666456"
+   ],
+   "productIds": [
+    "cosrx-aha-bha-toner",
+    "cosrx-ha-3-serum"
+   ]
+  },
+  {
+   "id": "glycolic-acid",
+   "inci": "Glycolic Acid",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "aha"
+   ],
+   "molecularWeight": 76.05,
+   "xlogp": -1.1,
+   "pubchemCid": 757,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/757"
+   ],
+   "productIds": [
+    "cosrx-aha-bha-toner"
+   ]
+  },
+  {
+   "id": "betaine-salicylate",
+   "inci": "Betaine Salicylate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "bha"
+   ],
+   "molecularWeight": 255.27,
+   "xlogp": null,
+   "pubchemCid": 71587021,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/71587021"
+   ],
+   "productIds": [
+    "cosrx-aha-bha-toner",
+    "cosrx-bha-liquid",
+    "cosrx-moisture-pad"
+   ]
+  },
+  {
+   "id": "niacinamide",
+   "inci": "Niacinamide",
+   "nameKo": null,
+   "aliases": [
+    "Niacinamide(15%)"
+   ],
+   "groups": [
+    "niacinamide"
+   ],
+   "molecularWeight": 122.12,
+   "xlogp": -0.4,
+   "pubchemCid": 936,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/936"
+   ],
+   "productIds": [
+    "cosrx-bha-liquid",
+    "cosrx-niacinamide-15-serum",
+    "cosrx-vitc-23-serum",
+    "cosrx-calming-pad",
+    "cosrx-pdrn-hydrogel-mask",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "glycerin",
+   "inci": "Glycerin",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 92.09,
+   "xlogp": -1.8,
+   "pubchemCid": 753,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/753"
+   ],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-ha-3-serum",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-calming-pad",
+    "cosrx-moisture-pad",
+    "cosrx-snail-gel-cleanser",
+    "cosrx-pdrn-hydrogel-mask",
+    "torriden-divein-toner",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-mask",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "glycine-soja-soybean-oil",
+   "inci": "Glycine Soja (Soybean) Oil",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-retinol-05-oil"
+   ]
+  },
+  {
+   "id": "tocopherol",
+   "inci": "Tocopherol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 416.7,
+   "xlogp": 10.3,
+   "pubchemCid": 14986,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/14986"
+   ],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-niacinamide-15-serum",
+    "cosrx-vitc-23-serum",
+    "cosrx-ha-3-serum",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-pdrn-hydrogel-mask",
+    "cosrx-retinol-05-oil",
+    "cosrx-vite-sunscreen",
+    "torriden-divein-cleansing-oil"
+   ]
+  },
+  {
+   "id": "tocopheryl-acetate",
+   "inci": "Tocopheryl Acetate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 472.7,
+   "xlogp": 10.8,
+   "pubchemCid": 2117,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/2117"
+   ],
+   "productIds": [
+    "cosrx-retinol-03-cream"
+   ]
+  },
+  {
+   "id": "trehalose",
+   "inci": "Trehalose",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 342.3,
+   "xlogp": -4.2,
+   "pubchemCid": 7427,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/7427"
+   ],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-niacinamide-15-serum",
+    "torriden-divein-toner",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-mask"
+   ]
+  },
+  {
+   "id": "butyrospermum-parkii-shea-butter",
+   "inci": "Butyrospermum Parkii (Shea) Butter",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream"
+   ]
+  },
+  {
+   "id": "ammonium-acryloyldimethyltaurate-vp-copolymer",
+   "inci": "Ammonium Acryloyldimethyltaurate/VP Copolymer",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream"
+   ]
+  },
+  {
+   "id": "glyceryl-polymethacrylate",
+   "inci": "Glyceryl Polymethacrylate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream"
+   ]
+  },
+  {
+   "id": "polyglyceryl-10-stearate",
+   "inci": "Polyglyceryl-10 Stearate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-calming-pad"
+   ]
+  },
+  {
+   "id": "hydrogenated-lecithin",
+   "inci": "Hydrogenated Lecithin",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-ha-3-serum",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-calming-pad"
+   ]
+  },
+  {
+   "id": "helianthus-annuus-sunflower-seed-oil",
+   "inci": "Helianthus Annuus (Sunflower) Seed Oil",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-vitc-23-serum"
+   ]
+  },
+  {
+   "id": "hydroxyethyl-acrylate-sodium-acryloyldimethyl-taurate-copolymer",
+   "inci": "Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-ha-3-serum",
+    "torriden-divein-cream",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "retinol",
+   "inci": "Retinol",
+   "nameKo": null,
+   "aliases": [
+    "Retinol(0.3%)",
+    "Retinol(0.5%)"
+   ],
+   "groups": [
+    "retinoid"
+   ],
+   "molecularWeight": 286.5,
+   "xlogp": 5.7,
+   "pubchemCid": 445354,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/445354"
+   ],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-retinol-05-oil"
+   ]
+  },
+  {
+   "id": "tromethamine",
+   "inci": "Tromethamine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 121.14,
+   "xlogp": -2.9,
+   "pubchemCid": 6503,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/6503"
+   ],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-snail-gel-cleanser",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-mask",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "glyceryl-stearate",
+   "inci": "Glyceryl Stearate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-calming-pad",
+    "cosrx-vite-sunscreen",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "polysilicone-11",
+   "inci": "Polysilicone-11",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream"
+   ]
+  },
+  {
+   "id": "sodium-sulfite",
+   "inci": "Sodium Sulfite",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 126.05,
+   "xlogp": null,
+   "pubchemCid": 24437,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/24437"
+   ],
+   "productIds": [
+    "cosrx-retinol-03-cream"
+   ]
+  },
+  {
+   "id": "daucus-carota-sativa-carrot-root-extract",
+   "inci": "Daucus Carota Sativa (Carrot) Root Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-vitc-23-serum"
+   ]
+  },
+  {
+   "id": "glyceryl-caprylate",
+   "inci": "Glyceryl Caprylate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-ceramide-moisturizer"
+   ]
+  },
+  {
+   "id": "propanediol",
+   "inci": "Propanediol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 76.09,
+   "xlogp": -0.3,
+   "pubchemCid": 134919,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/134919"
+   ],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-ha-3-serum",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-moisture-pad",
+    "cosrx-pdrn-hydrogel-mask",
+    "cosrx-vite-sunscreen",
+    "torriden-divein-serum"
+   ]
+  },
+  {
+   "id": "oryza-sativa-rice-bran-wax",
+   "inci": "Oryza Sativa (Rice) Bran Wax",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream"
+   ]
+  },
+  {
+   "id": "tocotrienols",
+   "inci": "Tocotrienols",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-vitc-23-serum",
+    "cosrx-retinol-05-oil"
+   ]
+  },
+  {
+   "id": "polyglyceryl-3-methylglucose-distearate",
+   "inci": "Polyglyceryl-3 Methylglucose Distearate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream"
+   ]
+  },
+  {
+   "id": "ethylhexylglycerin",
+   "inci": "Ethylhexylglycerin",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 204.31,
+   "xlogp": 1.9,
+   "pubchemCid": 9859093,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/9859093"
+   ],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-niacinamide-15-serum",
+    "cosrx-ha-3-serum",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-calming-pad",
+    "cosrx-snail-gel-cleanser",
+    "cosrx-pdrn-hydrogel-mask",
+    "cosrx-vite-sunscreen",
+    "torriden-divein-toner",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-cleansing-oil",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "disodium-edta",
+   "inci": "Disodium EDTA",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 336.21,
+   "xlogp": null,
+   "pubchemCid": 13020083,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/13020083"
+   ],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-snail-gel-cleanser",
+    "cosrx-vite-sunscreen",
+    "torriden-divein-toner",
+    "torriden-divein-cream",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "sorbitan-isostearate",
+   "inci": "Sorbitan Isostearate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-ha-3-serum",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-vite-sunscreen",
+    "torriden-divein-cream",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "elaeis-guineensis-palm-oil",
+   "inci": "Elaeis Guineensis (Palm) Oil",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-vitc-23-serum",
+    "cosrx-retinol-05-oil"
+   ]
+  },
+  {
+   "id": "hydrolyzed-hyaluronic-acid",
+   "inci": "Hydrolyzed Hyaluronic Acid",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "hyaluronic"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-calming-pad",
+    "cosrx-pdrn-hydrogel-mask",
+    "torriden-divein-toner",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-mask",
+    "torriden-divein-cleansing-oil",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "beta-carotene",
+   "inci": "Beta-Carotene",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 536.9,
+   "xlogp": 13.5,
+   "pubchemCid": 5280489,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/5280489"
+   ],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-vitc-23-serum"
+   ]
+  },
+  {
+   "id": "sodium-hyaluronate-crosspolymer",
+   "inci": "Sodium Hyaluronate Crosspolymer",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "hyaluronic"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-calming-pad",
+    "cosrx-pdrn-hydrogel-mask",
+    "torriden-divein-toner",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-mask",
+    "torriden-divein-cleansing-oil",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "hyaluronic-acid",
+   "inci": "Hyaluronic Acid",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "hyaluronic"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-calming-pad",
+    "cosrx-pdrn-hydrogel-mask",
+    "torriden-divein-cleansing-oil",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "lauric-acid",
+   "inci": "Lauric Acid",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 200.32,
+   "xlogp": 4.2,
+   "pubchemCid": 3893,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/3893"
+   ],
+   "productIds": [
+    "cosrx-retinol-03-cream"
+   ]
+  },
+  {
+   "id": "sodium-acetylated-hyaluronate",
+   "inci": "Sodium Acetylated Hyaluronate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "hyaluronic"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-pdrn-hydrogel-mask",
+    "torriden-divein-toner",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-mask",
+    "torriden-divein-cleansing-oil",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "ascorbic-acid",
+   "inci": "Ascorbic Acid",
+   "nameKo": null,
+   "aliases": [
+    "Ascorbic Acid(23%)"
+   ],
+   "groups": [
+    "vitamin_c"
+   ],
+   "molecularWeight": 176.12,
+   "xlogp": -1.6,
+   "pubchemCid": 54670067,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/54670067"
+   ],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-vitc-23-serum"
+   ]
+  },
+  {
+   "id": "limnanthes-alba-meadowfoam-seed-oil",
+   "inci": "Limnanthes Alba (Meadowfoam) Seed Oil",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-03-cream"
+   ]
+  },
+  {
+   "id": "3-o-ethyl-ascorbic-acid",
+   "inci": "3-O-Ethyl Ascorbic Acid",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "vitamin_c"
+   ],
+   "molecularWeight": 204.18,
+   "xlogp": -1.5,
+   "pubchemCid": 150736,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/150736"
+   ],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-vitc-23-serum"
+   ]
+  },
+  {
+   "id": "glutathione",
+   "inci": "Glutathione",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 307.33,
+   "xlogp": -4.5,
+   "pubchemCid": 124886,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/124886"
+   ],
+   "productIds": [
+    "cosrx-retinol-03-cream",
+    "cosrx-vitc-23-serum",
+    "torriden-divein-cream"
+   ]
+  },
+  {
+   "id": "pentylene-glycol",
+   "inci": "Pentylene Glycol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 104.15,
+   "xlogp": 0.2,
+   "pubchemCid": 93000,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/93000"
+   ],
+   "productIds": [
+    "cosrx-niacinamide-15-serum",
+    "cosrx-vitc-23-serum",
+    "cosrx-ha-3-serum",
+    "cosrx-calming-pad",
+    "cosrx-pdrn-hydrogel-mask",
+    "torriden-divein-toner",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-mask",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "acetyl-glucosamine",
+   "inci": "Acetyl Glucosamine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 221.21,
+   "xlogp": -3.4,
+   "pubchemCid": 1738118,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/1738118"
+   ],
+   "productIds": [
+    "cosrx-niacinamide-15-serum",
+    "cosrx-vitc-23-serum"
+   ]
+  },
+  {
+   "id": "zinc-pca",
+   "inci": "Zinc PCA",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 321.6,
+   "xlogp": null,
+   "pubchemCid": 11602214,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/11602214"
+   ],
+   "productIds": [
+    "cosrx-niacinamide-15-serum",
+    "cosrx-micellar-water"
+   ]
+  },
+  {
+   "id": "pullulan",
+   "inci": "Pullulan",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_found",
+   "sources": [],
+   "productIds": [
+    "cosrx-niacinamide-15-serum"
+   ]
+  },
+  {
+   "id": "sodium-phytate",
+   "inci": "Sodium Phytate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 857.87,
+   "xlogp": null,
+   "pubchemCid": 23724990,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/23724990"
+   ],
+   "productIds": [
+    "cosrx-niacinamide-15-serum",
+    "cosrx-ha-3-serum",
+    "cosrx-pdrn-hydrogel-mask"
+   ]
+  },
+  {
+   "id": "citric-acid",
+   "inci": "Citric Acid",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 192.12,
+   "xlogp": -1.7,
+   "pubchemCid": 311,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/311"
+   ],
+   "productIds": [
+    "cosrx-niacinamide-15-serum",
+    "cosrx-ha-3-serum"
+   ]
+  },
+  {
+   "id": "squalane",
+   "inci": "Squalane",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 422.8,
+   "xlogp": 14.7,
+   "pubchemCid": 8089,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/8089"
+   ],
+   "productIds": [
+    "cosrx-vitc-23-serum",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-retinol-05-oil"
+   ]
+  },
+  {
+   "id": "sodium-hydroxide",
+   "inci": "Sodium Hydroxide",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vitc-23-serum"
+   ]
+  },
+  {
+   "id": "caffeine",
+   "inci": "Caffeine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 194.19,
+   "xlogp": -0.1,
+   "pubchemCid": 2519,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/2519"
+   ],
+   "productIds": [
+    "cosrx-vitc-23-serum"
+   ]
+  },
+  {
+   "id": "sodium-metaphosphate",
+   "inci": "Sodium Metaphosphate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vitc-23-serum"
+   ]
+  },
+  {
+   "id": "gardenia-florida-fruit-extract",
+   "inci": "Gardenia Florida Fruit Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vitc-23-serum"
+   ]
+  },
+  {
+   "id": "dextrin",
+   "inci": "Dextrin",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vitc-23-serum",
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "methyl-trimethicone",
+   "inci": "Methyl Trimethicone",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vitc-23-serum"
+   ]
+  },
+  {
+   "id": "carthamus-tinctorius-safflower-seed-oil",
+   "inci": "Carthamus Tinctorius (Safflower) Seed Oil",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vitc-23-serum"
+   ]
+  },
+  {
+   "id": "camellia-japonica-seed-oil",
+   "inci": "Camellia Japonica Seed Oil",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vitc-23-serum"
+   ]
+  },
+  {
+   "id": "glycyrrhiza-glabra-licorice-root-extract",
+   "inci": "Glycyrrhiza Glabra (Licorice) Root Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vitc-23-serum"
+   ]
+  },
+  {
+   "id": "diethoxyethyl-succinate",
+   "inci": "Diethoxyethyl Succinate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 262.3,
+   "xlogp": 0.3,
+   "pubchemCid": 5086298,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/5086298"
+   ],
+   "productIds": [
+    "cosrx-ha-3-serum"
+   ]
+  },
+  {
+   "id": "sodium-polyacryloyldimethyl-taurate",
+   "inci": "Sodium Polyacryloyldimethyl Taurate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-ha-3-serum"
+   ]
+  },
+  {
+   "id": "sodium-pca",
+   "inci": "Sodium PCA",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 151.1,
+   "xlogp": null,
+   "pubchemCid": 23666346,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/23666346"
+   ],
+   "productIds": [
+    "cosrx-ha-3-serum"
+   ]
+  },
+  {
+   "id": "pca",
+   "inci": "PCA",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_found",
+   "sources": [],
+   "productIds": [
+    "cosrx-ha-3-serum"
+   ]
+  },
+  {
+   "id": "glyceryl-acrylate-acrylic-acid-copolymer",
+   "inci": "Glyceryl Acrylate/Acrylic Acid Copolymer",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-ha-3-serum",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-mask",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "serine",
+   "inci": "Serine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 105.09,
+   "xlogp": -3.1,
+   "pubchemCid": 5951,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/5951"
+   ],
+   "productIds": [
+    "cosrx-ha-3-serum",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "alanine",
+   "inci": "Alanine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 89.09,
+   "xlogp": -3,
+   "pubchemCid": 5950,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/5950"
+   ],
+   "productIds": [
+    "cosrx-ha-3-serum",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "glycine",
+   "inci": "Glycine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 75.07,
+   "xlogp": -3.2,
+   "pubchemCid": 750,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/750"
+   ],
+   "productIds": [
+    "cosrx-ha-3-serum",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "pvm-ma-copolymer",
+   "inci": "PVM/MA Copolymer",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-ha-3-serum",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-mask",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "glutamic-acid",
+   "inci": "Glutamic Acid",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 147.13,
+   "xlogp": -3.7,
+   "pubchemCid": 33032,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/33032"
+   ],
+   "productIds": [
+    "cosrx-ha-3-serum",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "lysine-hcl",
+   "inci": "Lysine HCl",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 182.65,
+   "xlogp": null,
+   "pubchemCid": 69568,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/69568"
+   ],
+   "productIds": [
+    "cosrx-ha-3-serum"
+   ]
+  },
+  {
+   "id": "threonine",
+   "inci": "Threonine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 119.12,
+   "xlogp": -2.9,
+   "pubchemCid": 6288,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/6288"
+   ],
+   "productIds": [
+    "cosrx-ha-3-serum",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "sodium-methyl-stearoyl-taurate",
+   "inci": "Sodium Methyl Stearoyl Taurate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 427.6,
+   "xlogp": null,
+   "pubchemCid": 23667652,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/23667652"
+   ],
+   "productIds": [
+    "cosrx-ha-3-serum"
+   ]
+  },
+  {
+   "id": "proline",
+   "inci": "Proline",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 115.13,
+   "xlogp": -2.5,
+   "pubchemCid": 145742,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/145742"
+   ],
+   "productIds": [
+    "cosrx-ha-3-serum",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "ceramide-np",
+   "inci": "Ceramide NP",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "ceramide"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-ha-3-serum",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-calming-pad",
+    "torriden-divein-serum"
+   ]
+  },
+  {
+   "id": "cholesterol",
+   "inci": "Cholesterol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-ha-3-serum",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-calming-pad",
+    "torriden-divein-serum"
+   ]
+  },
+  {
+   "id": "phytosphingosine",
+   "inci": "Phytosphingosine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 317.5,
+   "xlogp": 4.6,
+   "pubchemCid": 122121,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/122121"
+   ],
+   "productIds": [
+    "cosrx-ha-3-serum",
+    "cosrx-ceramide-moisturizer"
+   ]
+  },
+  {
+   "id": "oleic-acid",
+   "inci": "Oleic Acid",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 282.5,
+   "xlogp": 6.5,
+   "pubchemCid": 445639,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/445639"
+   ],
+   "productIds": [
+    "cosrx-ha-3-serum",
+    "cosrx-calming-pad"
+   ]
+  },
+  {
+   "id": "alcohol",
+   "inci": "Alcohol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 46.07,
+   "xlogp": -0.1,
+   "pubchemCid": 702,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/702"
+   ],
+   "productIds": [
+    "cosrx-ha-3-serum"
+   ]
+  },
+  {
+   "id": "lactic-acid",
+   "inci": "Lactic Acid",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "aha"
+   ],
+   "molecularWeight": 90.08,
+   "xlogp": -0.7,
+   "pubchemCid": 612,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/612"
+   ],
+   "productIds": [
+    "cosrx-ha-3-serum"
+   ]
+  },
+  {
+   "id": "caprylyl-glycol",
+   "inci": "Caprylyl Glycol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 146.23,
+   "xlogp": 1.8,
+   "pubchemCid": 14231,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/14231"
+   ],
+   "productIds": [
+    "cosrx-ha-3-serum",
+    "cosrx-ceramide-moisturizer",
+    "cosrx-pdrn-hydrogel-mask"
+   ]
+  },
+  {
+   "id": "caprylhydroxamic-acid",
+   "inci": "Caprylhydroxamic Acid",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 159.23,
+   "xlogp": 1.3,
+   "pubchemCid": 23846,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/23846"
+   ],
+   "productIds": [
+    "cosrx-ha-3-serum"
+   ]
+  },
+  {
+   "id": "cetyl-ethylhexanoate",
+   "inci": "Cetyl Ethylhexanoate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 368.6,
+   "xlogp": 10.7,
+   "pubchemCid": 42956,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/42956"
+   ],
+   "productIds": [
+    "cosrx-ceramide-moisturizer",
+    "torriden-divein-cleansing-oil",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "butylene-glycol-dicaprylate-dicaprate",
+   "inci": "Butylene Glycol Dicaprylate/Dicaprate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_found",
+   "sources": [],
+   "productIds": [
+    "cosrx-ceramide-moisturizer"
+   ]
+  },
+  {
+   "id": "pentaerythrityl-tetraisostearate",
+   "inci": "Pentaerythrityl Tetraisostearate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-ceramide-moisturizer"
+   ]
+  },
+  {
+   "id": "dicaprylyl-carbonate",
+   "inci": "Dicaprylyl Carbonate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 286.4,
+   "xlogp": 7.4,
+   "pubchemCid": 9904000,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/9904000"
+   ],
+   "productIds": [
+    "cosrx-ceramide-moisturizer"
+   ]
+  },
+  {
+   "id": "behenyl-alcohol",
+   "inci": "Behenyl Alcohol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 326.6,
+   "xlogp": 10.5,
+   "pubchemCid": 12620,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/12620"
+   ],
+   "productIds": [
+    "cosrx-ceramide-moisturizer",
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "hydroxypropyl-bispalmitamide-mea",
+   "inci": "Hydroxypropyl Bispalmitamide MEA",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 655,
+   "xlogp": 11.9,
+   "pubchemCid": 11193108,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/11193108"
+   ],
+   "productIds": [
+    "cosrx-ceramide-moisturizer"
+   ]
+  },
+  {
+   "id": "c14-22-alcohols",
+   "inci": "C14-22 Alcohols",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-ceramide-moisturizer",
+    "cosrx-vite-sunscreen",
+    "torriden-divein-cream"
+   ]
+  },
+  {
+   "id": "hydroxypropyl-bislauramide-mea",
+   "inci": "Hydroxypropyl Bislauramide MEA",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 542.8,
+   "xlogp": 7.6,
+   "pubchemCid": 12030188,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/12030188"
+   ],
+   "productIds": [
+    "cosrx-ceramide-moisturizer"
+   ]
+  },
+  {
+   "id": "arachidyl-alcohol",
+   "inci": "Arachidyl Alcohol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 298.5,
+   "xlogp": 9.5,
+   "pubchemCid": 12404,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/12404"
+   ],
+   "productIds": [
+    "cosrx-ceramide-moisturizer"
+   ]
+  },
+  {
+   "id": "polyacrylate-13",
+   "inci": "Polyacrylate-13",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-ceramide-moisturizer",
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "c12-20-alkyl-glucoside",
+   "inci": "C12-20 Alkyl Glucoside",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-ceramide-moisturizer",
+    "cosrx-vite-sunscreen",
+    "torriden-divein-cream"
+   ]
+  },
+  {
+   "id": "arachidyl-glucoside",
+   "inci": "Arachidyl Glucoside",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 460.7,
+   "xlogp": 7.9,
+   "pubchemCid": 9933984,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/9933984"
+   ],
+   "productIds": [
+    "cosrx-ceramide-moisturizer"
+   ]
+  },
+  {
+   "id": "hydrogenated-polyisobutene",
+   "inci": "Hydrogenated Polyisobutene",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-ceramide-moisturizer"
+   ]
+  },
+  {
+   "id": "dimethiconol",
+   "inci": "Dimethiconol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-ceramide-moisturizer"
+   ]
+  },
+  {
+   "id": "polyglyceryl-10-laurate",
+   "inci": "Polyglyceryl-10 Laurate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-ceramide-moisturizer",
+    "cosrx-calming-pad",
+    "cosrx-pdrn-hydrogel-mask",
+    "torriden-divein-serum"
+   ]
+  },
+  {
+   "id": "ethylhexyl-palmitate",
+   "inci": "Ethylhexyl Palmitate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 368.6,
+   "xlogp": 10.6,
+   "pubchemCid": 62851,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/62851"
+   ],
+   "productIds": [
+    "cosrx-ceramide-moisturizer",
+    "torriden-divein-cleansing-oil"
+   ]
+  },
+  {
+   "id": "ceramide-ns",
+   "inci": "Ceramide NS",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "ceramide"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-ceramide-moisturizer"
+   ]
+  },
+  {
+   "id": "ceramide-ap",
+   "inci": "Ceramide AP",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "ceramide"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-ceramide-moisturizer"
+   ]
+  },
+  {
+   "id": "ceramide-as",
+   "inci": "Ceramide AS",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "ceramide"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-ceramide-moisturizer"
+   ]
+  },
+  {
+   "id": "ceramide-eop",
+   "inci": "Ceramide EOP",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "ceramide"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-ceramide-moisturizer"
+   ]
+  },
+  {
+   "id": "camellia-sinensis-leaf-water",
+   "inci": "Camellia Sinensis Leaf Water",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-calming-pad"
+   ]
+  },
+  {
+   "id": "gluconolactone",
+   "inci": "Gluconolactone",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "pha"
+   ],
+   "molecularWeight": 178.14,
+   "xlogp": -2,
+   "pubchemCid": 7027,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/7027"
+   ],
+   "productIds": [
+    "cosrx-calming-pad"
+   ]
+  },
+  {
+   "id": "polyglyceryl-10-myristate",
+   "inci": "Polyglyceryl-10 Myristate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-calming-pad"
+   ]
+  },
+  {
+   "id": "pantothenic-acid",
+   "inci": "Pantothenic Acid",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 219.23,
+   "xlogp": -1.1,
+   "pubchemCid": 6613,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/6613"
+   ],
+   "productIds": [
+    "cosrx-calming-pad"
+   ]
+  },
+  {
+   "id": "asiaticoside",
+   "inci": "Asiaticoside",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "centella"
+   ],
+   "molecularWeight": 959.1,
+   "xlogp": 0.1,
+   "pubchemCid": 11954171,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/11954171"
+   ],
+   "productIds": [
+    "cosrx-calming-pad"
+   ]
+  },
+  {
+   "id": "madecassic-acid",
+   "inci": "Madecassic Acid",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 504.7,
+   "xlogp": 4.4,
+   "pubchemCid": 73412,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/73412"
+   ],
+   "productIds": [
+    "cosrx-calming-pad",
+    "torriden-divein-serum"
+   ]
+  },
+  {
+   "id": "asiatic-acid",
+   "inci": "Asiatic Acid",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 488.7,
+   "xlogp": 5.7,
+   "pubchemCid": 119034,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/119034"
+   ],
+   "productIds": [
+    "cosrx-calming-pad"
+   ]
+  },
+  {
+   "id": "madecassoside",
+   "inci": "Madecassoside",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "centella"
+   ],
+   "molecularWeight": 975.1,
+   "xlogp": -1.2,
+   "pubchemCid": 24825675,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/24825675"
+   ],
+   "productIds": [
+    "cosrx-calming-pad",
+    "torriden-divein-serum"
+   ]
+  },
+  {
+   "id": "polyglyceryl-2-stearate",
+   "inci": "Polyglyceryl-2 Stearate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-calming-pad"
+   ]
+  },
+  {
+   "id": "beta-glucan",
+   "inci": "Beta-Glucan",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-calming-pad",
+    "torriden-divein-serum"
+   ]
+  },
+  {
+   "id": "capryloyl-salicylic-acid",
+   "inci": "Capryloyl Salicylic Acid",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "bha"
+   ],
+   "molecularWeight": 264.32,
+   "xlogp": 5.2,
+   "pubchemCid": 9838158,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/9838158"
+   ],
+   "productIds": [
+    "cosrx-calming-pad"
+   ]
+  },
+  {
+   "id": "stearyl-alcohol",
+   "inci": "Stearyl Alcohol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 270.5,
+   "xlogp": 8.4,
+   "pubchemCid": 8221,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/8221"
+   ],
+   "productIds": [
+    "cosrx-calming-pad"
+   ]
+  },
+  {
+   "id": "hydroxyacetophenone",
+   "inci": "Hydroxyacetophenone",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 136.15,
+   "xlogp": 1.4,
+   "pubchemCid": 7469,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/7469"
+   ],
+   "productIds": [
+    "cosrx-calming-pad",
+    "torriden-divein-mask"
+   ]
+  },
+  {
+   "id": "centella-asiatica-extract",
+   "inci": "Centella Asiatica Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "centella"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-calming-pad",
+    "cosrx-pdrn-hydrogel-mask"
+   ]
+  },
+  {
+   "id": "hydrolyzed-sodium-hyaluronate",
+   "inci": "Hydrolyzed Sodium Hyaluronate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "hyaluronic"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-calming-pad",
+    "cosrx-pdrn-hydrogel-mask",
+    "torriden-divein-toner",
+    "torriden-divein-serum",
+    "torriden-divein-cream",
+    "torriden-divein-mask",
+    "torriden-divein-cleansing-oil"
+   ]
+  },
+  {
+   "id": "dipropylene-glycol",
+   "inci": "Dipropylene Glycol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 268.35,
+   "xlogp": null,
+   "pubchemCid": 134692469,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/134692469"
+   ],
+   "productIds": [
+    "cosrx-micellar-water",
+    "torriden-divein-toner",
+    "torriden-divein-serum",
+    "torriden-divein-mask"
+   ]
+  },
+  {
+   "id": "polyglyceryl-4-caprate",
+   "inci": "Polyglyceryl-4 Caprate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-micellar-water"
+   ]
+  },
+  {
+   "id": "niacinamide-1-000ppm",
+   "inci": "Niacinamide(1,000ppm)",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "niacinamide"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_found",
+   "sources": [],
+   "productIds": [
+    "cosrx-micellar-water"
+   ]
+  },
+  {
+   "id": "acrylates-copolymer",
+   "inci": "Acrylates Copolymer",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-snail-gel-cleanser",
+    "cosrx-pdrn-hydrogel-mask"
+   ]
+  },
+  {
+   "id": "disodium-laureth-sulfosuccinate",
+   "inci": "Disodium Laureth Sulfosuccinate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_found",
+   "sources": [],
+   "productIds": [
+    "cosrx-snail-gel-cleanser"
+   ]
+  },
+  {
+   "id": "sodium-cocoyl-isethionate",
+   "inci": "Sodium Cocoyl Isethionate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-snail-gel-cleanser"
+   ]
+  },
+  {
+   "id": "coco-glucoside",
+   "inci": "Coco-Glucoside",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-snail-gel-cleanser"
+   ]
+  },
+  {
+   "id": "lauryl-betaine",
+   "inci": "Lauryl Betaine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 271.44,
+   "xlogp": 6.1,
+   "pubchemCid": 4292413,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/4292413"
+   ],
+   "productIds": [
+    "cosrx-snail-gel-cleanser"
+   ]
+  },
+  {
+   "id": "potassium-cocoyl-glycinate",
+   "inci": "Potassium Cocoyl Glycinate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-snail-gel-cleanser"
+   ]
+  },
+  {
+   "id": "fragrance",
+   "inci": "Fragrance",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "fragrance"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-snail-gel-cleanser"
+   ]
+  },
+  {
+   "id": "sodium-chloride",
+   "inci": "Sodium Chloride",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 58.44,
+   "xlogp": null,
+   "pubchemCid": 5234,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+   ],
+   "productIds": [
+    "cosrx-snail-gel-cleanser"
+   ]
+  },
+  {
+   "id": "acrylates-c10-30-alkyl-acrylate-crosspolymer",
+   "inci": "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-snail-gel-cleanser",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "ceratonia-siliqua-carob-gum",
+   "inci": "Ceratonia Siliqua (Carob) Gum",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-pdrn-hydrogel-mask"
+   ]
+  },
+  {
+   "id": "chondrus-crispus",
+   "inci": "Chondrus Crispus",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_found",
+   "sources": [],
+   "productIds": [
+    "cosrx-pdrn-hydrogel-mask"
+   ]
+  },
+  {
+   "id": "agar",
+   "inci": "Agar",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-pdrn-hydrogel-mask"
+   ]
+  },
+  {
+   "id": "sclerotium-gum",
+   "inci": "Sclerotium Gum",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-pdrn-hydrogel-mask"
+   ]
+  },
+  {
+   "id": "potassium-chloride",
+   "inci": "Potassium Chloride",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 74.55,
+   "xlogp": null,
+   "pubchemCid": 4873,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+   ],
+   "productIds": [
+    "cosrx-pdrn-hydrogel-mask"
+   ]
+  },
+  {
+   "id": "sucrose",
+   "inci": "Sucrose",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-pdrn-hydrogel-mask"
+   ]
+  },
+  {
+   "id": "cellulose-gum",
+   "inci": "Cellulose Gum",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-pdrn-hydrogel-mask"
+   ]
+  },
+  {
+   "id": "coptis-japonica-root-extract",
+   "inci": "Coptis Japonica Root Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-pdrn-hydrogel-mask"
+   ]
+  },
+  {
+   "id": "sodium-dna",
+   "inci": "Sodium DNA",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "pdrn"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-pdrn-hydrogel-mask"
+   ]
+  },
+  {
+   "id": "alpha-arbutin",
+   "inci": "Alpha-Arbutin",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "arbutin"
+   ],
+   "molecularWeight": 272.25,
+   "xlogp": -0.7,
+   "pubchemCid": 158637,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/158637"
+   ],
+   "productIds": [
+    "cosrx-pdrn-hydrogel-mask"
+   ]
+  },
+  {
+   "id": "cyanocobalamin",
+   "inci": "Cyanocobalamin",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 1355.4,
+   "xlogp": null,
+   "pubchemCid": 166596686,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/166596686"
+   ],
+   "productIds": [
+    "cosrx-pdrn-hydrogel-mask"
+   ]
+  },
+  {
+   "id": "lactobacillus-ferment",
+   "inci": "Lactobacillus Ferment",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-pdrn-hydrogel-mask"
+   ]
+  },
+  {
+   "id": "hydrolyzed-collagen",
+   "inci": "Hydrolyzed Collagen",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "collagen"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-pdrn-hydrogel-mask",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "hydroxypropyltrimonium-hyaluronate",
+   "inci": "Hydroxypropyltrimonium Hyaluronate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "hyaluronic"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-pdrn-hydrogel-mask",
+    "torriden-divein-cleansing-oil",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "potassium-hyaluronate",
+   "inci": "Potassium Hyaluronate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "hyaluronic"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-pdrn-hydrogel-mask",
+    "torriden-divein-cleansing-oil",
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "acetyl-hexapeptide-8",
+   "inci": "Acetyl Hexapeptide-8",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "peptide"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-pdrn-hydrogel-mask"
+   ]
+  },
+  {
+   "id": "hydrolyzed-dna",
+   "inci": "Hydrolyzed DNA",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-pdrn-hydrogel-mask"
+   ]
+  },
+  {
+   "id": "di-c12-13-alkyl-malate",
+   "inci": "Di-C12-13 Alkyl Malate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-retinol-05-oil"
+   ]
+  },
+  {
+   "id": "bht",
+   "inci": "BHT",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 220.35,
+   "xlogp": 5.3,
+   "pubchemCid": 31404,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/31404"
+   ],
+   "productIds": [
+    "cosrx-retinol-05-oil"
+   ]
+  },
+  {
+   "id": "hydroxymethoxyphenyl-decanone",
+   "inci": "Hydroxymethoxyphenyl Decanone",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 278.4,
+   "xlogp": 3.8,
+   "pubchemCid": 94378,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/94378"
+   ],
+   "productIds": [
+    "cosrx-retinol-05-oil"
+   ]
+  },
+  {
+   "id": "homosalate",
+   "inci": "Homosalate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "uv_filter"
+   ],
+   "molecularWeight": 262.34,
+   "xlogp": 5,
+   "pubchemCid": 8362,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/8362"
+   ],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "octocrylene",
+   "inci": "Octocrylene",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "uv_filter"
+   ],
+   "molecularWeight": 361.5,
+   "xlogp": 7.1,
+   "pubchemCid": 22571,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/22571"
+   ],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "ethylhexyl-salicylate-octisalate",
+   "inci": "Ethylhexyl Salicylate(Octisalate)",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_found",
+   "sources": [],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "butyloctyl-salicylate",
+   "inci": "Butyloctyl Salicylate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 306.4,
+   "xlogp": 7.9,
+   "pubchemCid": 18319150,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/18319150"
+   ],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "butyl-methoxydibenzoylmethane-avobenzone",
+   "inci": "Butyl Methoxydibenzoylmethane(Avobenzone)",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "uv_filter"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_found",
+   "sources": [],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "diphenylsiloxy-phenyl-trimethicone",
+   "inci": "Diphenylsiloxy phenyl trimethicone",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "vp-eicosene-copolymer",
+   "inci": "VP/Eicosene copolymer",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "silica",
+   "inci": "Silica",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "trisiloxane",
+   "inci": "Trisiloxane",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "cyclopentasiloxane",
+   "inci": "Cyclopentasiloxane",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "trimethylsiloxysilicate",
+   "inci": "Trimethylsiloxysilicate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "peg-100-stearate",
+   "inci": "PEG-100 stearate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "cetyl-alcohol",
+   "inci": "Cetyl alcohol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 242.44,
+   "xlogp": 7.3,
+   "pubchemCid": 2682,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/2682"
+   ],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "potassium-cetyl-phosphate",
+   "inci": "Potassium cetyl phosphate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 360.51,
+   "xlogp": null,
+   "pubchemCid": 23672321,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/23672321"
+   ],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "polyisobutene",
+   "inci": "Polyisobutene",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "fragrance-parfum",
+   "inci": "Fragrance / Parfum",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "fragrance"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "polysorbate-20",
+   "inci": "Polysorbate 20",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "theobroma-cacao-cocoa-extract",
+   "inci": "Theobroma cacao (cocoa) extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "gossypium-herbaceum-cotton-extract",
+   "inci": "Gossypium herbaceum (cotton) extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "glucose",
+   "inci": "Glucose",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 180.16,
+   "xlogp": -2.6,
+   "pubchemCid": 5793,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/5793"
+   ],
+   "productIds": [
+    "cosrx-vite-sunscreen"
+   ]
+  },
+  {
+   "id": "portulaca-oleracea-extract",
+   "inci": "Portulaca Oleracea Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-toner",
+    "torriden-divein-serum",
+    "torriden-divein-mask"
+   ]
+  },
+  {
+   "id": "2-3-butanediol",
+   "inci": "2,3-Butanediol",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 90.12,
+   "xlogp": -0.9,
+   "pubchemCid": 262,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/262"
+   ],
+   "productIds": [
+    "torriden-divein-toner",
+    "torriden-divein-cream"
+   ]
+  },
+  {
+   "id": "malachite-extract",
+   "inci": "Malachite Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-toner",
+    "torriden-divein-serum",
+    "torriden-divein-cream"
+   ]
+  },
+  {
+   "id": "hamamelis-virginiana-witch-hazel-leaf-extract",
+   "inci": "Hamamelis Virginiana (Witch Hazel) Leaf Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-serum"
+   ]
+  },
+  {
+   "id": "scutellaria-baicalensis-root-extract",
+   "inci": "Scutellaria Baicalensis Root Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-serum"
+   ]
+  },
+  {
+   "id": "paeonia-suffruticosa-root-extract",
+   "inci": "Paeonia Suffruticosa Root Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-serum"
+   ]
+  },
+  {
+   "id": "hydrogenated-didecene",
+   "inci": "Hydrogenated Didecene",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_found",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cream"
+   ]
+  },
+  {
+   "id": "hamamelis-virginiana-witch-hazel-extract",
+   "inci": "Hamamelis Virginiana (Witch Hazel) Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cream"
+   ]
+  },
+  {
+   "id": "melia-azadirachta-leaf-extract",
+   "inci": "Melia Azadirachta Leaf Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cream",
+    "torriden-divein-mask"
+   ]
+  },
+  {
+   "id": "melia-azadirachta-flower-extract",
+   "inci": "Melia Azadirachta Flower Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cream",
+    "torriden-divein-mask"
+   ]
+  },
+  {
+   "id": "coccinia-indica-fruit-extract",
+   "inci": "Coccinia Indica Fruit Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cream",
+    "torriden-divein-mask"
+   ]
+  },
+  {
+   "id": "solanum-melongena-eggplant-fruit-extract",
+   "inci": "Solanum Melongena (Eggplant) Fruit Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cream",
+    "torriden-divein-mask"
+   ]
+  },
+  {
+   "id": "ocimum-sanctum-leaf-extract",
+   "inci": "Ocimum Sanctum Leaf Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cream",
+    "torriden-divein-mask"
+   ]
+  },
+  {
+   "id": "curcuma-longa-turmeric-root-extract",
+   "inci": "Curcuma Longa (Turmeric) Root Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cream",
+    "torriden-divein-mask"
+   ]
+  },
+  {
+   "id": "corallina-officinalis-extract",
+   "inci": "Corallina Officinalis Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cream",
+    "torriden-divein-mask"
+   ]
+  },
+  {
+   "id": "salvia-sclarea-clary-extract",
+   "inci": "Salvia Sclarea (Clary) Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cream"
+   ]
+  },
+  {
+   "id": "lavandula-angustifolia-lavender-flower-extract",
+   "inci": "Lavandula Angustifolia (Lavender) Flower Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cream"
+   ]
+  },
+  {
+   "id": "hyacinthus-orientalis-hyacinth-extract",
+   "inci": "Hyacinthus Orientalis (Hyacinth) Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cream"
+   ]
+  },
+  {
+   "id": "chamomilla-recutita-matricaria-flower-extract",
+   "inci": "Chamomilla Recutita (Matricaria) Flower Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cream",
+    "torriden-divein-mask"
+   ]
+  },
+  {
+   "id": "centaurea-cyanus-flower-extract",
+   "inci": "Centaurea Cyanus Flower Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cream"
+   ]
+  },
+  {
+   "id": "borago-officinalis-extract",
+   "inci": "Borago Officinalis Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cream"
+   ]
+  },
+  {
+   "id": "calendula-officinalis-flower-extract",
+   "inci": "Calendula Officinalis Flower Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-mask"
+   ]
+  },
+  {
+   "id": "saccharide-isomerate",
+   "inci": "Saccharide Isomerate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_found",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-mask"
+   ]
+  },
+  {
+   "id": "malachite",
+   "inci": "Malachite",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-mask"
+   ]
+  },
+  {
+   "id": "sorbeth-30-tetraoleate",
+   "inci": "Sorbeth-30 Tetraoleate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cleansing-oil"
+   ]
+  },
+  {
+   "id": "diisostearyl-malate",
+   "inci": "Diisostearyl Malate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cleansing-oil"
+   ]
+  },
+  {
+   "id": "sorbitan-sesquioleate",
+   "inci": "Sorbitan Sesquioleate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cleansing-oil"
+   ]
+  },
+  {
+   "id": "isododecane",
+   "inci": "Isododecane",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 170.33,
+   "xlogp": 6.4,
+   "pubchemCid": 23459,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/23459"
+   ],
+   "productIds": [
+    "torriden-divein-cleansing-oil"
+   ]
+  },
+  {
+   "id": "citrus-aurantium-bergamia-bergamot-fruit-oil",
+   "inci": "Citrus Aurantium Bergamia (Bergamot) Fruit Oil",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cleansing-oil"
+   ]
+  },
+  {
+   "id": "aniba-rosodora-rosewood-wood-oil",
+   "inci": "Aniba Rosodora (Rosewood) Wood Oil",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cleansing-oil"
+   ]
+  },
+  {
+   "id": "melaleuca-alternifolia-tea-tree-leaf-oil",
+   "inci": "Melaleuca Alternifolia (Tea Tree) Leaf Oil",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-divein-cleansing-oil"
+   ]
+  },
+  {
+   "id": "linalool",
+   "inci": "Linalool",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 154.25,
+   "xlogp": 2.7,
+   "pubchemCid": 6549,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/6549"
+   ],
+   "productIds": [
+    "torriden-divein-cleansing-oil"
+   ]
+  },
+  {
+   "id": "limonene",
+   "inci": "Limonene",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 136.23,
+   "xlogp": 3.4,
+   "pubchemCid": 22311,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/22311"
+   ],
+   "productIds": [
+    "torriden-divein-cleansing-oil"
+   ]
+  },
+  {
+   "id": "collagen-extract",
+   "inci": "Collagen Extract",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "collagen"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "soluble-collagen",
+   "inci": "Soluble Collagen",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "collagen"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "collagen-amino-acids",
+   "inci": "Collagen Amino Acids",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "collagen"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "collagen",
+   "inci": "Collagen",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "collagen"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "hexapeptide-2",
+   "inci": "Hexapeptide-2",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [
+    "peptide"
+   ],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "heptyl-undecylenate",
+   "inci": "Heptyl Undecylenate",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 282.5,
+   "xlogp": 7.1,
+   "pubchemCid": 109641,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/109641"
+   ],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "c10-18-triglycerides",
+   "inci": "C10-18 Triglycerides",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "valine",
+   "inci": "Valine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 117.15,
+   "xlogp": -2.3,
+   "pubchemCid": 6287,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/6287"
+   ],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "isoleucine",
+   "inci": "Isoleucine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 131.17,
+   "xlogp": -1.7,
+   "pubchemCid": 6306,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/6306"
+   ],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "histidine",
+   "inci": "Histidine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 155.15,
+   "xlogp": -3.2,
+   "pubchemCid": 6274,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/6274"
+   ],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "methionine",
+   "inci": "Methionine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 149.21,
+   "xlogp": -1.9,
+   "pubchemCid": 6137,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/6137"
+   ],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "cysteine",
+   "inci": "Cysteine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 121.16,
+   "xlogp": -2.5,
+   "pubchemCid": 5862,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/5862"
+   ],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "biotin",
+   "inci": "Biotin",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 244.31,
+   "xlogp": 0.3,
+   "pubchemCid": 171548,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/171548"
+   ],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "aspartic-acid",
+   "inci": "Aspartic Acid",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 133.1,
+   "xlogp": -2.8,
+   "pubchemCid": 5960,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/5960"
+   ],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "leucine",
+   "inci": "Leucine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 131.17,
+   "xlogp": -1.5,
+   "pubchemCid": 6106,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/6106"
+   ],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "lysine",
+   "inci": "Lysine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 146.19,
+   "xlogp": -3,
+   "pubchemCid": 5962,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/5962"
+   ],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "tyrosine",
+   "inci": "Tyrosine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 181.19,
+   "xlogp": -2.3,
+   "pubchemCid": 6057,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/6057"
+   ],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "phenylalanine",
+   "inci": "Phenylalanine",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": 165.19,
+   "xlogp": -1.5,
+   "pubchemCid": 6140,
+   "chemStatus": "ok",
+   "sources": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/6140"
+   ],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  },
+  {
+   "id": "vinyl-dimethicone",
+   "inci": "Vinyl Dimethicone",
+   "nameKo": null,
+   "aliases": [],
+   "groups": [],
+   "molecularWeight": null,
+   "xlogp": null,
+   "pubchemCid": null,
+   "chemStatus": "not_single_compound",
+   "sources": [],
+   "productIds": [
+    "torriden-cellmazing-firming-cream"
+   ]
+  }
+ ]
+}

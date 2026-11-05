@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>스킨스택 시연</title>
+  <meta name="description" content="가진 화장품으로 루틴을 만들고, 성분·제형·공식 사용법으로 순서와 궁합을 알려 주는 앱 시연">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jua@5.1.0/index.css" crossorigin="anonymous">
+  <style>
+    :root { --pink: #EF426F; --pink-strong: #C8285A; --pink-soft: #FCE6EC; --baby: #F2ACB9; --text: #333; --muted: #6F6F6F; --line: #F1E6E9; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "Pretendard Variable", Pretendard, system-ui, sans-serif; color: var(--text); background: linear-gradient(180deg, #fff, var(--pink-soft)); min-height: 100vh; word-break: keep-all; }
+    header { max-width: 1120px; margin: 0 auto; padding: 28px 20px 8px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    header img { width: 44px; height: 44px; border-radius: 14px; }
+    h1 { font-family: Jua, sans-serif; font-weight: 400; font-size: 1.9rem; margin: 0; }
+    header p { margin: 0; color: var(--muted); flex-basis: 100%; }
+    main { max-width: 1120px; margin: 0 auto; padding: 16px 20px 40px; display: grid; grid-template-columns: 400px 1fr; gap: 40px; align-items: start; }
+    .phone { position: sticky; top: 20px; width: 400px; height: 820px; border-radius: 48px; padding: 14px; background: #1f1f1f; box-shadow: 0 30px 60px rgba(200, 40, 90, .18); }
+    .phone iframe { width: 100%; height: 100%; border: 0; border-radius: 36px; background: #fff; }
+    .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+    .step { width: 100%; text-align: left; display: grid; grid-template-columns: 40px 1fr; gap: 4px 14px; align-items: start; padding: 16px 18px; border-radius: 20px; border: 1px solid var(--line); background: #fff; cursor: pointer; font: inherit; color: inherit; }
+    .step:hover, .step:focus-visible { border-color: var(--baby); outline: none; box-shadow: 0 0 0 3px var(--pink-soft); }
+    .step[aria-current="true"] { border-color: var(--pink); box-shadow: 0 8px 24px rgba(239, 66, 111, .15); }
+    .num { grid-row: span 2; width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: var(--pink-soft); color: var(--pink-strong); font-family: Jua, sans-serif; font-size: 1.1rem; }
+    .step[aria-current="true"] .num { background: var(--pink-strong); color: #fff; }
+    .step strong { font-size: 1.05rem; }
+    .step span { color: var(--muted); font-size: .92rem; line-height: 1.5; }
+    .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 18px; }
+    .btn { display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--line); background: #fff; color: var(--text); font: inherit; font-weight: 650; text-decoration: none; cursor: pointer; }
+    .btn.primary { background: var(--pink-strong); border-color: var(--pink-strong); color: #fff; }
+    .note { margin-top: 18px; font-size: .85rem; color: var(--muted); line-height: 1.6; }
+    @media (max-width: 900px) {
+      main { grid-template-columns: 1fr; }
+      .phone { position: static; width: min(400px, 100%); height: 760px; margin: 0 auto; }
+    }
+  </style>
+  <script type="module" src="demo.js"></script>
+</head>
+<body>
+  <header>
+    <img src="icon.svg" alt="">
+    <h1>스킨스택 시연</h1>
+    <p>새로 사기보다, 이미 가진 화장품을 안전하고 알뜰하게. 순서대로 눌러 보며 기능을 보여 주세요.</p>
+  </header>
+  <main>
+    <div class="phone"><iframe id="app" title="스킨스택 앱 화면 (시연용 데이터)" src="./?demo=1#/"></iframe></div>
+    <section aria-label="시연 순서">
+      <ol class="steps" id="steps"></ol>
+      <div class="actions">
+        <button type="button" class="btn primary" id="reset">데모 처음부터</button>
+        <a class="btn" href="./" target="_blank" rel="noopener">실제 앱 열기</a>
+      </div>
+      <p class="note">시연 화면은 실제 데이터와 분리된 저장 공간을 쓰고 클라우드에 올라가지 않아요. 제품 정보는 브랜드 공식 몰에서 확인한 상품 DB(COSRX·토리든)로 채웠어요.</p>
+    </section>
+  </main>
+</body>
+</html>
